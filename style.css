@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+body,
+html {
+  font-family: monospace;
+  line-height: 1;
+  font-weight: normal;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+strong {
+  font-weight: 700;
+}
+a {
+  color: #df005c;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+html, body {
+  height: 100%;
+}
+p {
+  font-family: arial;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+main {
+  padding: 20px 0;
+}
+img {
+  height: auto;
+}
+.left {
+  float: left;
+}
+.w-30 {
+  width: 30%;
+}
+.m-sm {
+  margin: 10px;
+}
+.t-c {
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  max-width: 970px;
+}
+.header {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  z-index: 1;
+  border-bottom: 2px solid #df005c;
+}
+
+.title {
+  position: fixed;
+  top: 10%;
+  left: 0;
+  right: 0;
+}
+.title .logo,
+.title h2 {
+  color: rgba(232,127,65,0.7);
+  text-align: center;
+}
+.title .logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 6em;
+  font-weight: 900;
+  color: #df005c;
+  text-shadow: 1px 4px 0px #6b2c46, 1px 2px 0px #6b2c46;
+}
+.title h2 {
+  color: #aaa;
+  margin-top: 20px;
+  font-size: 1.7em;
+  font-weight: 600;
+}
+.article-title {
+  margin-bottom: 20px;
+}
+h1 {
+  font-weight: 400;
+  font-size: 3em;
+}
+footer {
+  padding: 20px 0;
+  background-color: #6b2c46;
+  color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .title h1 {
+    line-height: 1.2;
+    font-size: 4em;
+  }
+  .title h2 {
+    padding: 0 20px;
+    line-height: 1.2;
+  }
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+}
