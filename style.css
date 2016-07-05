@@ -69,6 +69,10 @@ p {
 }
 main {
   padding: 20px 0;
+  background: #fff;
+  position: relative;
+  min-height: 100%;
+  z-index: 2;
 }
 img {
   height: auto;
@@ -93,7 +97,6 @@ img {
   position: relative;
   height: 250px;
   overflow: hidden;
-  z-index: 1;
   border-bottom: 2px solid #df005c;
 }
 
